@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #3d48e7, violet);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .glass-container {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+    color: white;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .toggle-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .toggle-btn {
+    flex: 1;
+    margin: 0 5px;
+    background: none;
+    border: 1px solid #8289ec;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .toggle-btn.active {
+    background: white;
+    color: #3d48e7;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .signup-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(216, 235, 243, 0.61); /* Set the background color to white */
+    color: black; /* Set the text color to black for readability */
+    font-size: 14px;
+    outline: none; /* Remove the default outline */
+  }
+  
+  .signup-form input::placeholder {
+  color: #6969b3; /* Set placeholder text color to blue */
+  opacity: 1; /* Ensure the placeholder is fully visible */
+  }
+  
+  
+  .submit-btn {
+    background: #7833a7;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .signin-btn {
+    margin-top: 20px;
+    border: none;
+    background: none;
+    color: rgb(105, 105, 179);
+    text-decoration: none;
+  }
+
+  .signin-btn:hover{
+    color: #ffffff;
+  }
+
+  .social-signup {
+    margin-top: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between icons */
+  }
+  
+  .social-icon {
+    font-size: 32px; /* Adjust icon size */
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2); /* Slightly enlarge on hover */
+    color:  #ffffff; 
+  }
+  
+  .google-icon {
+    color: #7833a7;
+  }
+  
+  .facebook-icon {
+    color: #7833a7;
+  }
+  
+  .apple-icon {
+    color: #7833a7;
+  }
+  
+  
+  .google-btn,
+  .facebook-btn {
+    background: white;
+    color: rgb(105, 105, 179);
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+  }
+  /* Placeholder color */
+  .password-field {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .password-field input {
+    width: calc(100% - 50px);
+    padding-right: 40px;
+  }
+  
+  .password-toggle-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #4d4d4d;
+    font-size: 18px;
+  }
+  select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #d8ebf39c;
+    color: #000000;
+  }
+  
+  select:focus {
+    outline: none;
+    border: 1px solid #109edb9c;
+  }
+  
+  
+  
+
+
+  
